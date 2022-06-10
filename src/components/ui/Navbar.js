@@ -1,6 +1,5 @@
 import { Link, NavLink } from 'react-router-dom';
 
-
 export const Navbar = () => {
 
     const handleLogout = () => {
@@ -33,6 +32,13 @@ export const Navbar = () => {
                         to='/dc'
                     >
                         DC
+                    </NavLink>
+
+                    <NavLink
+                        className={({ isActive }) => 'nav-item nav-link ' + (isActive ? 'active' : '')}
+                        to='/hero'
+                    >
+                        Hero
                     </NavLink>
                 </div>
             </div>
