@@ -1,4 +1,4 @@
-import { useNavigate } from "react-router-dom";
+import { useNavigate } from 'react-router-dom';
 
 export const LoginScreen = () => {
 
@@ -14,7 +14,7 @@ export const LoginScreen = () => {
             <hr />
 
             <button
-                className="btn btn-primary"
+                className='btn btn-primary'
                 onClick={handleLogin}
             >
                 Login
