@@ -2,7 +2,7 @@ import { heroes } from '../data/heroes';
 
 export const getHeroesByName = (name = '') => {
 
-    if(name.lenght === 0){
+    if(name.length === 0){
         return [];
     }
 
