@@ -36,4 +36,4 @@ export const HeroCard = ({
             </div>
         </div>
     )
-}
+};
